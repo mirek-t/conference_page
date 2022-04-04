@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 
 const ImageToggleOnScroll = ({ primaryImg, secondaryImg }) => {
   const imgRef = useRef(null);
+
   const [inView, setInView] = useState(false);
 
   const isInView = () => {
